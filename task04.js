@@ -22,5 +22,4 @@ export function fizzBuzz(number) {
   
     console.log(result);
   }
-fizzBuzz(20)
   
