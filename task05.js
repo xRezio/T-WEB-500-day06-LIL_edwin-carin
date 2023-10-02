@@ -3,12 +3,7 @@
 // Function to generate a range of numbers
 function range(start, end, step) {
     step = typeof step !== 'undefined' ? step : 1;
-  
-    if (typeof start !== 'number' || typeof end !== 'number' || typeof step !== 'number') {
-      console.log("Invalid input. Please provide three integers.");
-      return [];
-    }
-  
+    
     var result = [];
     var current = start;
   
@@ -34,6 +29,5 @@ function range(start, end, step) {
   
 // console.log(range(4, 1, -1))
 
-  // Export the function
   module.exports = range;
   
