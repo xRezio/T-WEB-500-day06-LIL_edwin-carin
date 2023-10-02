@@ -1,6 +1,4 @@
 // task05.js
-
-// Function to generate a range of numbers
 function range(start, end, step) {
     step = typeof step !== 'undefined' ? step : 1;
     
@@ -29,5 +27,5 @@ function range(start, end, step) {
   
 // console.log(range(4, 1, -1))
 
-  module.exports = range;
+  module.exports = {range}
   
